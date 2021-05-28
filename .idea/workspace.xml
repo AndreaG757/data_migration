@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="336c58a3-2943-4a0c-982a-01da4f85d7c6" name="Default Changelist" comment="" />
+    <list default="true" id="336c58a3-2943-4a0c-982a-01da4f85d7c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/assicurato/NotProcessedServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/assicuratonew/notprocessed/NotProcessedDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/assicuratonew/notprocessed/NotProcessedDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Assicurato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Assicurato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/assicurato/AssicuratoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/assicurato/AssicuratoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/assicurato/AssicuratoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/assicurato/AssicuratoServiceImpl.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,10 +36,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1t876StgzuMPXXHQInV3zv3ghVq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -39,6 +51,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
@@ -99,7 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1622138686821</updated>
       <workItem from="1622138690471" duration="4242000" />
-      <workItem from="1622187385865" duration="11343000" />
+      <workItem from="1622187385865" duration="12248000" />
     </task>
     <servers />
   </component>
@@ -128,26 +141,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="179" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1622188470800" />
-    <state width="1493" height="199" key="GridCell.Tab.0.bottom" timestamp="1622206496653">
+    <state width="1493" height="199" key="GridCell.Tab.0.bottom" timestamp="1622207546501">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="2517" height="404" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.2560.1410@1920.0.2560.1410" timestamp="1622151970202" />
-    <state width="1493" height="199" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1622206496653" />
-    <state width="1493" height="199" key="GridCell.Tab.0.center" timestamp="1622206496653">
+    <state width="1493" height="199" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1622207546501" />
+    <state width="1493" height="199" key="GridCell.Tab.0.center" timestamp="1622207546501">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="2517" height="404" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.2560.1410@1920.0.2560.1410" timestamp="1622151970202" />
-    <state width="1493" height="199" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1622206496653" />
-    <state width="1493" height="199" key="GridCell.Tab.0.left" timestamp="1622206496652">
+    <state width="1493" height="199" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1622207546501" />
+    <state width="1493" height="199" key="GridCell.Tab.0.left" timestamp="1622207546501">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="2517" height="404" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.2560.1410@1920.0.2560.1410" timestamp="1622151970202" />
-    <state width="1493" height="199" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1622206496652" />
-    <state width="1493" height="199" key="GridCell.Tab.0.right" timestamp="1622206496653">
+    <state width="1493" height="199" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1622207546501" />
+    <state width="1493" height="199" key="GridCell.Tab.0.right" timestamp="1622207546501">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="2517" height="404" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.2560.1410@1920.0.2560.1410" timestamp="1622151970202" />
-    <state width="1493" height="199" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1622206496653" />
+    <state width="1493" height="199" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1622207546501" />
     <state x="2730" y="360" key="Maven.ArtifactSearchDialog" timestamp="1622140173938">
       <screen x="1920" y="0" width="2560" height="1410" />
     </state>

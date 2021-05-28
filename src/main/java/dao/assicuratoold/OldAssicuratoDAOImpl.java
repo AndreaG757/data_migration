@@ -28,7 +28,7 @@ public class OldAssicuratoDAOImpl extends AbstractMySQLDAO {
                         "LEFT JOIN SINISTRI S ON D.ID = S.FK_ANAGRAFICA\n" +
                         "GROUP BY D.ID;")) {
 
-            ResultSet rs = ps.executeQuery();
+            ResultSet rs = ps.executeQuery();   
 
             while(rs.next()) {
                 Assicurato temp = new Assicurato();

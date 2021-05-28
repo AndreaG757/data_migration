@@ -14,7 +14,7 @@ import java.util.List;
 public class AssicuratoServiceImpl {
 
     private AssicuratoDAOImpl assicuratoDAOImpl = new AssicuratoDAOImpl();
-    private NotProcessedDAOImpl notProcessedDAOImpl = new NotProcessedDAOImpl();
+    private NotProcessedServiceImpl notProcessedDAOImpl = new NotProcessedServiceImpl();
     private OldAssicuratoServiceImpl oldAssicuratoServiceImpl = new OldAssicuratoServiceImpl();
 
     public void dataMigrator() throws Exception {
@@ -26,6 +26,7 @@ public class AssicuratoServiceImpl {
             assicuratoDAOImpl.setConnection(connection);
 
             for (Assicurato assicuratoItem : assicurati) {
+                System.out.println(assicuratoItem);
                 if (validate(assicuratoItem))
                     assicuratoDAOImpl.insert(assicuratoItem);
                 else

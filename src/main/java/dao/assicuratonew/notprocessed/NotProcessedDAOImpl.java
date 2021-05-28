@@ -8,7 +8,6 @@ import java.sql.PreparedStatement;
 
 public class NotProcessedDAOImpl extends AbstractMySQLDAO {
 
-
     public void insert(Assicurato input) throws Exception {
 
         if (isNotActive())
